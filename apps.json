@@ -62,6 +62,58 @@
       {"name":"about.img","url":"app-icon.js","evaluate":true}
     ]
   },
+  { "id": "pacman",
+    "name": "Pacman",
+    "icon": "app.png",
+    "version":"0.01",
+    "description": "The all time classic video game: Pacman",
+    "tags": "game",
+    "allow_emulator":true,
+    "storage": [
+      {"name":"pacman.app.js","url":"app.js"},
+      {"name":"pacman.img","url":"app-icon.js","evaluate":true},
+      {"name":"BlinkTimer.js","url":"src/BlinkTimer.js.min"},
+      {"name":"Cherry.js","url":"src/Cherry.js.min"},
+      {"name":"EventManager.js","url":"src/EventManager.js.min"},
+      {"name":"StartupScene.js","url":"src/StartupScene.js.min"},
+      {"name":"Game.js","url":"src/Game.js.min"},
+      {"name":"GameRunner.js","url":"src/GameRunner.js.min"},
+      {"name":"Ghost.js","url":"src/Ghost.js.min"},
+      {"name":"ImageManager.js","url":"src/ImageManager.js.min"},
+      {"name":"Keyboard.js","url":"src/Keyboard.js"},
+      {"name":"Pacman.js","url":"src/Pacman.js.min"},
+      {"name":"PacmanDiesPause.js","url":"src/PacmanDiesPause.js.min"},
+      {"name":"PacmanDiesStrategy.js","url":"src/PacmanDiesStrategy.js.min"},
+      {"name":"PacmanPlaySceneStrategy.js","url":"src/PacmanPlaySceneStrategy.js.min"},
+      {"name":"PacmanStartupSceneStrategy.js","url":"src/PacmanStartupSceneStrategy.js.min"},
+      {"name":"Pellet.js","url":"src/Pellet.js.min"},
+      {"name":"PlayScene.js","url":"src/PlayScene.js.min"},
+      {"name":"PointsMessage.js","url":"src/PointsMessage.js.min"},
+      {"name":"Position.js","url":"src/Position.js.min"},
+      {"name":"PowerPellet.js","url":"src/PowerPellet.js.min"},
+      {"name":"PressEnterText.js","url":"src/PressEnterText.js.min"},
+      {"name":"ReadyMessage.js","url":"src/ReadyMessage.js.min"},
+      {"name":"Rect.js","url":"src/Rect.js.min"},
+      {"name":"SoundManager.js","url":"src/SoundManager.js"},
+      {"name":"Sprite.js","url":"src/Sprite.js.min"},
+      {"name":"Util.js","url":"src/Util.js.min"},
+      {"name":"src/Wall.js","url":"src/Wall.js.min"},
+      {"name":"Astar.js","url":"lib/Astar.js.min"}
+    ]
+  },
+  { "id": "testfred",
+    "name": "Test",
+    "icon": "app.png",
+    "version":"0.01",
+    "description": "test app",
+    "tags": "tool,system",
+    "allow_emulator":true,
+    "storage": [
+      {"name":"testfred.app.js","url":"app.js"},
+      {"name":"testfred.img","url":"app-icon.js","evaluate":true},
+      {"name":"test.js","url":"test.js"}
+    ]
+  },
   { "id": "locale",
     "name": "Languages",
     "icon": "locale.png",
@@ -1157,6 +1209,30 @@
       {"name":"batchart.wid.js","url":"widget.js"},
       {"name":"batchart.app.js","url":"app.js"},
       {"name":"batchart.img","url":"app-icon.js","evaluate":true}
+    ]
+  },
+  { "id": "tandemtales",
+    "name": "Tandem Tales",
+    "shortName":"TTales",
+    "icon": "tandemtales.png",
+    "version":"0.01",
+    "description": "A mock app for my girlfriend ❤️",
+    "tags": "",
+    "storage": [
+      {"name":"tandemtales.app.js","url":"app.js"},
+      {"name":"tandemtales.img","url":"tandemtales-icon.js","evaluate":true}
+    ]
+  },
+  { "id": "qibla",
+    "name": "Qibla",
+    "shortName":"Qibla",
+    "icon": "qibla.png",
+    "version":"0.01",
+    "description": "Give direction to Makkah. You can also configure Jerusalem or NodeConfEU 2020",
+    "tags": "tool,compass,gps",
+    "storage": [
+      {"name":"qibla.app.js","url":"app.js"},
+      {"name":"qibla.img","url":"qibla-icon.js","evaluate":true}
     ]
   }
 ]

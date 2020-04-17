@@ -9,5 +9,8 @@
   "scripts": {
     "test": "node bin/sanitycheck.js",
     "start": "npx http-server"
+  },
+  "dependencies": {
+    "minifyjs": "^0.2.0"
   }
 }
